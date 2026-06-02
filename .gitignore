@@ -1,0 +1,21 @@
+clasedificios
+
+# caches
+osmnx_cache/
+osmnx_cache2/
+
+# outputs
+out/
+out2/
+out/graficas_memoria/
+out/comparison_transformados/
+
+# datos pesados
+raw_data/
+*.pickle
+
+# logs
+*.
+
+.env
+*.env

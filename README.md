@@ -37,7 +37,6 @@ Modelado-Clasificaci-nEdificios/
     ├── out/
     ├── out2/
     ├── osmnx_cache/
-    ├── osmnx_cache2/
     ├── scripts/
     └── src/
 
@@ -46,6 +45,7 @@ Modelado-Clasificaci-nEdificios/
 La carpeta `Alicante/` contiene el flujo completo para generar un ground truth local de la ciudad de Alicante, validar la clasificación de edificios descargados desde OSM, generar informes y aplicar una versión mejorada con ayuda de un LLM.
 
 La carpeta `Minneapolis and St. Paul/` contiene el flujo equivalente para el área metropolitana de Minneapolis and St. Paul, utilizando el dataset `GeneralizedLandUse2020` como fuente oficial de validación.
+
 ---
 
 ## 2. Dependencias principales

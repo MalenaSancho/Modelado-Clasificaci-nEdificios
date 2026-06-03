@@ -1049,3 +1049,12 @@ La mejora se aplica así:
 3. En *Elige un proyecto importado*, escribe *Default Gemini Project*.
 4. Pulsa *Crear clave*.
 5. Copia *Clave de API* y sustitúyela en los scripts *05-etiquetas_unicas_osm.py*.
+
+
+## 15. Citas
+
+El trabajo toma como referencia principal el artículo original en el que se presenta el conjunto de datos de clasificación de edificios derivado de OpenStreetMap para Estados Unidos. A partir de esta publicación hemos estructurado el enfoque general del proyecto, tanto en la descarga y procesamiento de datos geoespaciales como en la clasificación de edificios en categorías residenciales y no residenciales.
+
+La referencia bibliográfica principal es:
+
+F. de Arruda, H., Reia, S.M., Ruan, S. et al. An OpenStreetMap derived building classification dataset for the United States. Sci Data 11, 1210 (2024). https://doi.org/10.1038/s41597-024-04046-w

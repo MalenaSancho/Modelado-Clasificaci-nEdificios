@@ -1,0 +1,394 @@
+amenity:bar
+amenity:brothel
+amenity:car_rental
+amenity:car_wash
+amenity:casino
+amenity:courthouse
+amenity:events_venue
+amenity:ferry_terminal
+amenity:fire_station
+amenity:fuel
+amenity:hospital
+amenity:kindergarten
+amenity:library
+amenity:love_hotel
+amenity:nightclub
+amenity:police
+amenity:post_depot
+amenity:post_office
+amenity:prison
+amenity:research_institute
+amenity:restaurant
+amenity:school
+amenity:theatre
+amenity:townhall
+amenity:university
+brand:100 montaditos
+brand:AMRO Estudiantes
+brand:Affiliated by Meliá
+brand:Banco Sabadell
+brand:Burger King
+brand:Curio Collection by Hilton
+brand:Eurostars Hotel
+brand:Grupo El Castillo
+brand:Hampton
+brand:Instituto Bernabeu
+brand:KFC
+brand:Marriott
+brand:McDonald's
+brand:Serawa Hotels
+brand:The Good Burger
+brand:ale-hop
+brand:amorino
+brand:apple store
+brand:b&b hotels
+brand:banco sabadell
+brand:banco santander
+brand:bankinter
+brand:barclays
+brand:bbva
+brand:bp
+brand:burger king
+brand:caixabank
+brand:caja rural
+brand:cajamar
+brand:carl's jr.
+brand:carrefour
+brand:carrefour express
+brand:casa del libro
+brand:cortefiel
+brand:covirán
+brand:deutsche bank
+brand:dia
+brand:dia & go
+brand:dia market
+brand:domino's
+brand:druni
+brand:eurocaja rural
+brand:euronet
+brand:eurostars hotel company
+brand:expert
+brand:five guys
+brand:flying tiger copenhagen
+brand:fnac
+brand:ford
+brand:galp
+brand:general óptica
+brand:generali
+brand:guess
+brand:hiperber
+brand:holiday inn
+brand:ibercaja
+brand:immosol
+brand:ing
+brand:intersport
+brand:jysk
+brand:kfc
+brand:kiko milano
+brand:ktm
+brand:kutxabank
+brand:la casa de las carcasas
+brand:leroy merlin
+brand:levaduramadre
+brand:lidl
+brand:lizarran
+brand:lizarrán
+brand:loterías y apuestas del estado
+brand:malvón
+brand:mango
+brand:mapfre
+brand:masymas
+brand:mccafé
+brand:mcdonald's
+brand:mercadona
+brand:midas
+brand:milar
+brand:moeve
+brand:movistar
+brand:multiópticas
+brand:mutual universal
+brand:natura
+brand:novo banco
+brand:ocaso
+brand:oficina de correos
+brand:olympia
+brand:opel
+brand:orange
+brand:parfois
+brand:pepco
+brand:petroprix
+brand:phone house
+brand:pizza hut
+brand:platinum oil
+brand:plenergy
+brand:primaprix
+brand:primor
+brand:reale
+brand:renault
+brand:repsol
+brand:rodilla
+brand:samsung
+brand:santa lucía
+brand:seur
+brand:shell
+brand:skechers
+brand:spar
+brand:starbucks
+brand:subway
+brand:suma
+brand:supercor
+brand:taco bell
+brand:tea shop
+brand:tedi
+brand:telepizza
+brand:the good burger
+brand:tous
+brand:trek
+brand:unicaja banco
+brand:united colors of benetton
+brand:vips
+brand:vodafone
+brand:yamaha
+brand:yoigo
+brand:zara
+building:airport
+building:apartments
+building:bunker
+building:carport
+building:chapel
+building:church
+building:civic
+building:clinic
+building:college
+building:commercial
+building:cowshed
+building:detached
+building:dormitory
+building:farm
+building:garage
+building:garages
+building:government
+building:greenhouse
+building:hangar
+building:hospital
+building:hotel
+building:house
+building:hut
+building:industrial
+building:kindergarten
+building:kiosk
+building:mall
+building:manufacture
+building:no
+building:office
+building:parking
+building:pavilion
+building:public
+building:residential
+building:retail
+building:school
+building:semidetached_house
+building:shed
+building:sports_centre
+building:sports_hall
+building:stable
+building:stadium
+building:static_caravan
+building:sty
+building:supermarket
+building:terrace
+building:tower
+building:train_station
+building:transformer_tower
+building:university
+building:warehouse
+building:yes
+clothes:babies
+clothes:children
+clothes:men
+clothes:sports
+clothes:underwear
+clothes:wedding
+clothes:women
+clothes:yes
+emergency:lifeguard
+healthcare:clinic
+healthcare:occupational_therapist
+healthcare:pharmacy
+landuse:allotments
+landuse:cemetery
+landuse:cinema
+landuse:commercial
+landuse:education
+landuse:greenfield
+landuse:harbour
+landuse:industrial
+landuse:meadow
+landuse:military
+landuse:orchard
+landuse:plant_nursery
+landuse:quarry
+landuse:railway
+landuse:recreation_ground
+landuse:religious
+landuse:residential
+landuse:retail
+leisure:bandstand
+leisure:bird_hide
+leisure:bleachers
+leisure:dog_park
+leisure:escape_game
+leisure:fitness_centre
+leisure:fitness_station
+leisure:garden
+leisure:golf_course
+leisure:horse_riding
+leisure:pitch
+leisure:playground
+leisure:sauna
+leisure:sports_centre
+leisure:sports_hall
+leisure:stadium
+leisure:swimming_pool
+leisure:track
+military:office
+military:range
+office:accountant
+office:advertising_agency
+office:architect
+office:company
+office:construction_company
+office:educational_institution
+office:employment_agency
+office:estate_agent
+office:government
+office:insurance
+office:it
+office:lawyer
+office:ngo
+office:notary
+office:public_transport
+office:research
+office:travel_agent
+office:yes
+public_transport:platform
+public_transport:station
+service:emergency_access
+service:parking_aisle
+service:yard
+shop:accessories
+shop:agrarian
+shop:alcohol
+shop:appliance
+shop:art
+shop:bag
+shop:bakery
+shop:beauty
+shop:bed
+shop:bicycle
+shop:bookmaker
+shop:books
+shop:butcher
+shop:cannabis
+shop:car
+shop:car_parts
+shop:car_repair
+shop:chemist
+shop:clothes
+shop:computer
+shop:confectionery
+shop:convenience
+shop:copyshop
+shop:cosmetics
+shop:craft
+shop:dairy
+shop:decoration_shop
+shop:deli
+shop:department_store
+shop:doityourself
+shop:dry_cleaning
+shop:electronics
+shop:erotic
+shop:estate_agent
+shop:fabric
+shop:fashion_accessories
+shop:florist
+shop:funeral_directors
+shop:furniture
+shop:games
+shop:garden_centre
+shop:gift
+shop:greengrocer
+shop:grocery
+shop:hairdresser
+shop:hardware
+shop:health_food
+shop:herbalist
+shop:hunting
+shop:interior_decoration
+shop:jetski
+shop:jewelry
+shop:kiosk
+shop:laundry
+shop:lighting
+shop:lottery
+shop:mall
+shop:massage
+shop:mobile_phone
+shop:motorcycle
+shop:motorcycle_repair
+shop:music
+shop:musical_instrument
+shop:optician
+shop:outdoor
+shop:paint
+shop:pastry
+shop:pawnbroker
+shop:perfumery
+shop:pet
+shop:pet_grooming
+shop:printer_ink
+shop:radiotechnics
+shop:repair
+shop:second_hand
+shop:sewing
+shop:shoes
+shop:skate
+shop:sports
+shop:stationery
+shop:supermarket
+shop:surf
+shop:tattoo
+shop:ticket
+shop:tobacco
+shop:toys
+shop:trade
+shop:travel_agency
+shop:tyres
+shop:vacant
+shop:variety_store
+shop:video
+shop:wholesale
+shop:wigs
+shop:wine
+shop:yes
+sport:airsoft
+sport:golf
+sport:gymnastics
+sport:multi
+sport:running
+sport:swimming
+telecom:data_center
+telecom:exchange
+tourism:apartment
+tourism:artwork
+tourism:attraction
+tourism:chalet
+tourism:guest_house
+tourism:hostel
+tourism:hotel
+tourism:information
+tourism:motel
+tourism:museum
+tourism:picnic_site
+tourism:viewpoint

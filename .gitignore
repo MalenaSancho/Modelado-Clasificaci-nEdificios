@@ -1,21 +1,27 @@
 clasedificios
 
-# caches
-osmnx_cache/
-osmnx_cache2/
-
-# outputs
-out/
-out2/
-out/graficas_memoria/
-out/comparison_transformados/
-
-# datos pesados
-raw_data/
-*.pickle
-
-# logs
-*.
-
+# entorno
 .env
 *.env
+
+# caches
+osmnx_cache/
+
+# outputs pesados
+out/comparison/
+out2/comparison2/
+
+
+# datos crudos grandes
+raw_data/
+data/
+
+# archivos pesados típicos
+*.geojson
+*.pickle
+*.json
+*.shp
+*.zip
+
+# logs
+*.log

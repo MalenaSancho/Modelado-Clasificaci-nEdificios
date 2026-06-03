@@ -61,10 +61,10 @@ for name, intersection in name2intersection.items():
     name2intersection[name] = intersection
 
 # Guardar los nuevos resultados mejorados
-with open(os.path.join(out_path, 'name2performance.pickle'), 'wb') as handle:
+with open(os.path.join(out_path, 'name2performance_mejorado.pickle'), 'wb') as handle:
     pickle.dump(name2performance_new, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
-with open(os.path.join(out_path, 'name2intersection.pickle'), 'wb') as handle:
+with open(os.path.join(out_path, 'name2intersection_mejorado.pickle'), 'wb') as handle:
     pickle.dump(name2intersection, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 print(f"\n¡Proceso instantáneo completado! Resultados guardados en {out_path}")

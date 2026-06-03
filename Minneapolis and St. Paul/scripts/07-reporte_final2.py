@@ -15,7 +15,7 @@ if not os.path.exists(output_path):
     os.makedirs(output_path)
 
 print(f"Cargando datos precalculados desde {input_path}...")
-with open(os.path.join(input_path, 'name2intersection.pickle'), 'rb') as handle:
+with open(os.path.join(input_path, 'name2intersection_mejorado.pickle'), 'rb') as handle:
     name2intersection = pickle.load(handle)
 
 # Inicializar PDF
@@ -28,10 +28,10 @@ for name, intersection in name2intersection.items():
     # EXPORTACIÓN DE DATOS (CSV y GeoJSON)
     # CSV: Quitamos la geometría porque Excel no entiende polígonos
     df_csv = pd.DataFrame(intersection.drop(columns=['geometry']))
-    df_csv.to_csv(os.path.join(output_path, f"{name}_resultados.csv"), index=False)
+    df_csv.to_csv(os.path.join(output_path, f"{name}_resultados_mejorado.csv"), index=False)
     
     # GeoJSON: Exportamos directamente 'intersection', que contiene los polígonos y la predicción MEJORADA
-    intersection.to_file(os.path.join(output_path, f"{name}_mapa.geojson"), driver='GeoJSON')
+    intersection.to_file(os.path.join(output_path, f"{name}_mapa_mejorado.geojson"), driver='GeoJSON')
 
     # --- CREACIÓN DEL PDF ---
     pdf.add_page()
@@ -58,7 +58,7 @@ for name, intersection in name2intersection.items():
     plt.title(f'Matriz de Confusion - {name}')
     plt.tight_layout()
     
-    imagen_filename = os.path.join(output_path, f"{name}_cm.png")
+    imagen_filename = os.path.join(output_path, f"{name}_cm_mejorado.png")
     plt.savefig(imagen_filename, dpi=300)
     plt.close()
 
@@ -86,6 +86,6 @@ for name, intersection in name2intersection.items():
     agregar_errores_pdf("a) Era NON_RES pero se clasifico como RES:", gdf_error['type']=='RES')
     agregar_errores_pdf("b) Era RES pero se clasifico como NON_RES:", gdf_error['type']=='NON_RES')
 
-archivo_pdf = os.path.join(output_path, "Reporte_Completo.pdf")
+archivo_pdf = os.path.join(output_path, "Reporte_Completo_mejorado.pdf")
 pdf.output(archivo_pdf)
 print(f"\n¡Exito! CSVs, GeoJSONs y el Reporte PDF guardados en: {output_path}")

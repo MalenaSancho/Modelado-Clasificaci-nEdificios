@@ -44,7 +44,7 @@ Lista de etiquetas: {etiquetas}
 
 # 4. Llamada al LLM de Google forzando salida JSON
 try:
-    # Usamos gemini-2.5-flash (o gemini-2.0-flash), que son los estándares actuales
+    # Usamos gemini-3.5-flash 
     response = client.models.generate_content(
         model='gemini-3.5-flash', 
         contents=prompt,
